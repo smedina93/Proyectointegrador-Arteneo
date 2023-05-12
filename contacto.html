@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arteneo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/arteneo.css">
+<link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="barra">Bienvenidos a nuestra tienda online</div>
+        <div class="encabezado">
+            <div class="search">
+                <form action="#" method="GET"></form>
+                 <label for="search-bar" class="label-buscador"><input type="search" class="buscador" placeholder="Buscar"></label> 
+                 <i class="fa fa-search"></i>
+             </div> 
+         <img src="img/logo.jpg" alt="Arteneo" class="logo">
+         <div class="headerderecho">
+         <a href="iniciarsesion.html">Iniciar sesión </a>
+         <a href="crearcuenta.html">Crear cuenta</a>
+         <a href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        </div>
+        </header>
+        
+    <nav>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+        <li><a href="tienda.html">TIENDA</a></li>
+        <li><a class="activo" href="contacto.html">CONTACTO</a></li>
+        <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+    </nav>
+    <main>
+        <div class="maincontacto">
+        <div class="formulariocontacto">
+        <form action="/contacto" method="POST">
+           <div class="datos-contacto"><label for="nombre">NOMBRE:</label>
+           <br>
+               <input type="text" name="nombre" id="nombre">
+           </div>
+           <div class="datos-contacto"> <label for="email">EMAIL:</label>
+            <br>
+           <input type="text" name="email" id="email">
+            </div>   
+            <div class="datos-contacto"> <label for="mensaje">MENSAJE:</label>
+            <br>
+            <textarea name="mensaje" id="mensaje"> </textarea>
+            </div>            
+           <button type="submit" name="enviar">Enviar</button>
+           </form>
+        </div>
+        <div class="datoscontacto">
+           <h4>Av.Rivadavia 2750, CABA.</h4>
+           <h4>Horarios de atención: Lunes a Sábados de 10 a 18 hs.</h4> 
+           <h5><i class="fas fa-phone"></i> 4368-8722</h5>
+           <h5><a href=" "> <i class="far fa-envelope"></i> arteneo@gmail.com</a></h5>
+           <h5><a href=" "><i class="fab fa-instagram"></i> Seguinos en Instagram</a></h5>
+        </div>
+    </div>
+    </main>
+    <footer>Diseñado por Stefania Medina - 2023</footer>
+</body>
+</html>
